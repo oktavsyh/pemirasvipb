@@ -1,0 +1,21 @@
+.customFile{
+    cursor: pointer;
+}
+
+.customFile .custom-file-label::after {
+    content: "Pilih file...";
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Cari";
+}
+
+.custom-file-control.selected::after {
+    content: "" !important;
+}
+
+.list-group{
+    height: 249px;
+    overflow: auto;
+    background-color: #eaeaea;
+}

@@ -1,0 +1,11 @@
+img{
+    transform: translateY(-20%);
+}
+
+.form{
+
+}
+
+.form .thumbnail {
+    background: none;
+}
